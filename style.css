@@ -2,14 +2,16 @@ body {
     margin: 0;
     padding: 0;
     background: rgba(0, 0, 0, 0.5);
+    
 }
 
 .container {
-    width: 40rem;
+    width: 70%;
     height: 100vh;
     background-color: white;
     margin: 0 auto;
     overflow: hidden;
+    
 }
 
 .user-image > img {
@@ -29,7 +31,7 @@ img {
 }
 
 .reply-box {
-    width: 38%;
+    width: 57%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,7 +41,7 @@ img {
 
 
 .replytwo {
-    width: 32.4%
+    width: 46.6%;
 }
    
 h3 {
@@ -74,6 +76,7 @@ h3 {
  }
 
 .secondchat-box {
+    width: 80%;
     display: flex;
     flex-direction: row;
     margin: -7.8rem 0 0 5.8rem;
@@ -113,6 +116,7 @@ input {
     display: flex;
     flex-direction: row;
     margin: 1rem;
+    width: 80%;
 }
 
 .firstline {
